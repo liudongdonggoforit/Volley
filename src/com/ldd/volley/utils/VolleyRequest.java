@@ -1,10 +1,9 @@
 package com.ldd.volley.utils;
 
-import com.android.volley.Request.Method;
+import android.content.Context;
+
 import com.android.volley.toolbox.StringRequest;
 import com.ldd.volley.application.VolleyApplication;
-
-import android.content.Context;
 
 public class VolleyRequest {
 	public static StringRequest stringRequest;
